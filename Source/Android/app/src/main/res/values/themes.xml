@@ -62,13 +62,5 @@
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:windowLightNavigationBar">true</item>
     </style>
-
-    <style name="PreferenceTheme" parent="PreferenceThemeOverlay">
-        <item name="switchPreferenceCompatStyle">@style/Preference.SwitchPreferenceCompat</item>
-    </style>
-
-    <style name="Preference.SwitchPreferenceCompat" parent="Preference.SwitchPreferenceCompat.Material">
-        <item name="android:widgetLayout">@layout/material_switch</item>
-    </style>
     
 </resources>
